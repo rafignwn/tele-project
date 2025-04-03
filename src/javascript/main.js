@@ -1,6 +1,6 @@
 const { Telegraf } = require('telegraf');
 
-const bot = new Telegraf('7630712224:AAEe1cxzUlhrRlxjKXJL0Yp5VzqgNaSVsVI');
+const bot = new Telegraf('token');
 
 // menambahkan daftar command
 bot.telegram.setMyCommands([
